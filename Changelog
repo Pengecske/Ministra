@@ -1,0 +1,45 @@
+# Ministra
+Ministra 5.6.5
+v5.6.5
+[*] Administrative panel
+
+[**] Fixed long loading of the "Edit service packages" page by setting `service_package_edit_lite = true` in config.ini file.
+
+[*] Ministra Classic
+
+[**] Set ntp_wait_timeout = 0 by default in config.ini to decrease the time for displaying “Time setting is not synchronized on the device.” error message in case ntp server is not reachable.
+
+v5.6.4
+
+[*] Ministra Streamer
+
+[**] Fixed the possibility of unauthorized access to streams  in the link to the channel from Flussonic.
+
+[*] Ministra Classic
+
+[**] Fixed issue when using video rewind in Video Club in Classic interface.
+[**] Fixed display of film cover in the Video Club.
+
+v5.6.3
+[*] Administrative panel
+
+[**]Fixed movie creating with a title that starts with the number "1" and any service digit.
+[**]Fixed long loading of "Tariff plans" "Service packages" pages.
+
+[*] Ministra Classic
+
+*Fixed positioning of the TV archive.
+*Fixed setting focus on the login form.
+*Fixed image positioning in preview mode.
+*Fixed repeated shutdown of the STB after exiting standby mode on MAG324.
+*Fixed the instant screensaver appears after turning on the STB.
+
+v5.6.1
+[*] Administrative panel
+
+[**] Added option to view user's device statistics.
+[**] Fixed filtration of streaming link by an IP address.
+[**] Fixed error when editing admins' group.
+[**] Fixed error of the assigning of the tariff plan in a user's profile.
+[**] Fixed Russian text on the users' list and tariff plan pages.
+[**] Fixed error "sh: 1: /usr/sbin/sendmail: not found" in the Apache error log.
